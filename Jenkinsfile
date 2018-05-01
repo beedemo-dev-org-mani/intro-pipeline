@@ -12,7 +12,6 @@ pipeline {
       }
     }
     stage('Checkpoint') {
-         agent none
          steps {
             checkpoint 'Checkpoint'
          }
